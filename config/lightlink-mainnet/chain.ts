@@ -6,8 +6,8 @@ export const FACTORY_ADDRESS = '0xcb2436774C3e191c85056d248EF4260ce5f27A9D'
 // WETH on LightLink
 export const REFERENCE_TOKEN = '0x7ebef2a4b1b09381ec5b9df8c5c6f2dbeca59c73'
 
-// TODO: Set this to a WETH/USDC pool address once one exists with liquidity
-export const STABLE_TOKEN_POOL = '0x0000000000000000000000000000000000000000'
+// WETH/USDC 0.3% pool for price reference
+export const STABLE_TOKEN_POOL = '0x1125452469e9b9a36fe69249309fce8925c3eeda'
 
 export const TVL_MULTIPLIER_THRESHOLD = '2'
 export const MATURE_MARKET = '1000000'
