@@ -11,6 +11,7 @@ export enum NETWORK {
   BSC = 'bsc',
   CELO = 'celo',
   ETHEREUM = 'ethereum',
+  LIGHTLINK = 'lightlink-mainnet',
   MATIC = 'matic',
   MEGAETH = 'megaeth-mainnet',
   MONAD = 'monad',
