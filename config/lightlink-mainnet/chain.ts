@@ -22,14 +22,16 @@ export const ROLL_DELETE_MINUTE_LIMITER = BigInt.fromI32(1000)
 // Tokens that should contribute to tracked volume and liquidity
 export const WHITELIST_TOKENS: string[] = [
   REFERENCE_TOKEN, // WETH
-  '0xbcf8c1b03bbdda88d579330bdf236b58f8bb2cfd', // USDC
+  '0xbcf8c1b03bbdda88d579330bdf236b58f8bb2cfd', // USDCe (Stargate bridged)
+  '0x18fb38404dadee1727be4b805c5b242b5413fa40', // USDC
   '0x808d7c71ad2ba3fa531b068a2417c63106bc0949', // USDT
   '0x519d3443cacc61bd844546edaea48e5502021802', // LL (LightLink token)
 ]
 
 // Stablecoins on LightLink
 export const STABLE_COINS: string[] = [
-  '0xbcf8c1b03bbdda88d579330bdf236b58f8bb2cfd', // USDC
+  '0xbcf8c1b03bbdda88d579330bdf236b58f8bb2cfd', // USDCe (Stargate bridged)
+  '0x18fb38404dadee1727be4b805c5b242b5413fa40', // USDC
   '0x808d7c71ad2ba3fa531b068a2417c63106bc0949', // USDT
 ]
 
