@@ -11,7 +11,7 @@ export const STABLE_TOKEN_POOL = '0x1125452469e9b9a36fe69249309fce8925c3eeda'
 
 export const TVL_MULTIPLIER_THRESHOLD = '2'
 export const MATURE_MARKET = '1000000'
-export const MINIMUM_NATIVE_LOCKED = BigDecimal.fromString('4')
+export const MINIMUM_NATIVE_LOCKED = BigDecimal.fromString('1')
 
 export const ROLL_DELETE_HOUR = 768
 export const ROLL_DELETE_MINUTE = 1680
